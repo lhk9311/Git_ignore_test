@@ -13,6 +13,7 @@ public class Assume_unchanged_8 {
 	             파일을 저장하면 Unstaged Changes(관리를 받지 않는 단계)에 >(dirty) 모양으로 들어옵니다.
 	      Staged Changes(관리를 받는 단계)에 *(staged) 모양으로 들어와도 상관 없이 괜찮습니다.       
 	   5. Project Explorer 에서  Assume_unchanged_8.java 파일에 마우스 우클릭하여 
+	   
 	      Team => Advanced => Assume Unchanged(변경이 없음으로 가정함)를 클릭하면 
 	      Project Explorer 에서  Assume_unchanged_8.java 파일의 아이콘이 우측하단에 조그만한 v(assume-valid) 표시가 나옵니다.
 	   6. 이제부터 Assume_unchanged_8.java 파일은 내용물에 실제로 변경이 있음에도 불구하고
@@ -28,8 +29,10 @@ public class Assume_unchanged_8 {
 	      Assume_unchanged_8.java 파일이 >(dirty) 모양으로 들어오게 되고 
 	             이제부터는 Staged Changes(관리를 받는 단계)에도 들어오게 되고 Commit 및 Push 대상이 되어집니다.          
 	*/
-		System.out.println("==== Assume_unchanged_8.java 파일입니다. ===="); 
-
+		System.out.println("==== Assume_unchanged_8.java 파일입니다. ====");
+		System.out.println("==== Assume_unchanged_8.java 파일 수정했습니다. ===="); // assume 전
+		System.out.println("==== Assume_unchanged_8.java 파일 또 수정했습니다. ===="); // assume 후
+		System.out.println("==== Assume_unchanged_8.java 파일 최종 완성했습니다. ====");
 	}
 
 }
